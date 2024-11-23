@@ -9,6 +9,7 @@ body {
     background-image: url('background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     background-position: center;
     color: white;
     text-align: justify;
@@ -533,9 +534,8 @@ nav ul li a:hover {
         font-size: 1.5em;
     }
 
-    .card-content p {
-        visibility: hidden;
-        font-size: 1px;
+    .card-content {
+        opacity: 1;
     }
 
     .social-card-container {
