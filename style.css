@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    background-color: black;
     color: white;
     text-align: justify;
     line-height: 1.6;
@@ -497,8 +498,15 @@ nav ul li a:hover {
 
 @media (max-width: 800px) {
     body {
-        width: 90%;
-        background-attachment: fixed;
+        width: 100%;
+        background-image: url('background-mini.png');
+        background-attachment: unset;
+        background-size: contain;
+        background-position: top;
+    }
+
+    main {
+        background-color: rgba(31, 0, 2, 1);
     }
 
     #MainMenu {
@@ -551,6 +559,10 @@ nav ul li a:hover {
 @media (max-width: 450px) {
     body {
         width: 100%;
+        background-image: url('background-ios.png');
+        background-attachment: unset;
+        background-size: contain;
+        background-position: top;
     }
 
     main {

@@ -49,11 +49,6 @@ h2 {
     font-size: 4em;
 }
 
-.container img {
-    max-width: 100%;
-    height: auto;
-}
-
 .hoverpic:hover {
     transition: 0.55s;
     transform: scale(1.1);
@@ -155,6 +150,7 @@ nav ul {
     cursor: pointer;
     overflow: hidden;
     transition: transform 1s ease, color 1.5s ease;
+    margin-bottom: 16px;
 }
 
     .button_back::before {
@@ -255,12 +251,16 @@ nav ul {
         z-index: -1;
     }
 
-.game img {
+.container {
+    text-align: center;
+}
+
+.game .image {
     width: 100%;
     max-width: 300px;
     height: auto;
     max-height: 450px;
-    margin-bottom: 10px;
+    margin: 16px;
 }
 
 .game .title {
@@ -270,6 +270,7 @@ nav ul {
 
 .game .date,
 .game .platforms {
+    max-width: 300px;
     font-size: 0.9em;
     margin-bottom: 5px;
 }
