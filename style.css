@@ -7,7 +7,7 @@ body {
     width: 85%;
     max-width: 1500px;
     background-image: url('background.png');
-    background-repeat: no-repeat;
+    background-color: Window;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -499,6 +499,7 @@ nav ul li a:hover {
 @media (max-width: 800px) {
     body {
         width: 90%;
+        background-attachment: fixed;
     }
 
     #MainMenu {
@@ -549,6 +550,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 450px) {
+    body {
+        background-attachment: fixed;
+    }
+
     #topics {
         flex: 0 0 100%;
         padding: 4px;
