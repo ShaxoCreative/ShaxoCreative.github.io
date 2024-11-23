@@ -42,9 +42,9 @@
     "background": "background3.png"
   },
   "game4": {
-    "title": "Resident Evil",
+    "title": "Resident Evil CODE: Veronica",
     "image": "game4.png",
-    "data": "1984",
+    "data": "Дата выпуска: 03.02.2000",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
     "story": "1984",
@@ -56,8 +56,8 @@
     "background": "background4.png"
   },
   "game5": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil Remake",
+    "image": "game5.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -70,8 +70,8 @@
     "background": "background5.png"
   },
   "game6": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil Zero",
+    "image": "game6.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -84,8 +84,8 @@
     "background": "background6.png"
   },
   "game7": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 4",
+    "image": "game7.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -98,8 +98,8 @@
     "background": "background7.png"
   },
   "game8": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 5",
+    "image": "game8.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -112,8 +112,8 @@
     "background": "background8.png"
   },
   "game9": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 6",
+    "image": "game9.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -126,8 +126,8 @@
     "background": "background9.png"
   },
   "game10": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil Biohazard",
+    "image": "game10.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -140,8 +140,8 @@
     "background": "background10.png"
   },
   "game11": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 2 Remake",
+    "image": "game11.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -154,8 +154,8 @@
     "background": "background11.png"
   },
   "game12": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 3 Remake",
+    "image": "game12.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -168,8 +168,8 @@
     "background": "background12.png"
   },
   "game13": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil Village",
+    "image": "game13.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
@@ -182,8 +182,8 @@
     "background": "background13.png"
   },
   "game14": {
-    "title": "Resident Evil",
-    "image": "placeholder1.png",
+    "title": "Resident Evil 4 Remake",
+    "image": "game14.png",
     "data": "1984",
     "platforms": "1984",
     "description": "Это описание для Игры 1.",
