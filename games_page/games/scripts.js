@@ -16,15 +16,20 @@ fetch('games.json')
         if (data[key]) {
             const game = data[key];
 
-            // Заполнение страницы
             document.getElementById('game-title').textContent = game.title;
             document.getElementById('game-image').src = game.image;
+            document.getElementById('game-data').textContent = game.data;
+            document.getElementById('game-platforms').textContent = game.platforms;
             document.getElementById('game-description').textContent = game.description;
+            document.getElementById('game-story').textContent = game.story;
+            document.getElementById('game-gameplay').textContent = game.gameplay;
+            document.getElementById('game-critics').textContent = game.critics;
+            document.getElementById('game-screenshot1').src = game.screenshots1;
+            document.getElementById('game-screenshot1').src = game.screenshots2;
+            document.getElementById('game-screenshot1').src = game.screenshots3;
 
-            // Установка фона
             document.body.style.backgroundImage = `url(${game.background})`;
 
-            // Изменение <title>
             document.title = game.title;
         } else {
             throw new Error('Игра с таким ключом не найдена');
@@ -33,5 +38,11 @@ fetch('games.json')
     .catch(error => {
         console.error('Ошибка:', error);
         document.getElementById('game-title').textContent = 'Ошибка';
+        document.getElementById('game-data').textContent = 'Не удалось загрузить информацию об игре.';
+        document.getElementById('game-platforms').textContent = 'Не удалось загрузить информацию об игре.';
         document.getElementById('game-description').textContent = 'Не удалось загрузить информацию об игре.';
+        document.getElementById('game-story').textContent = 'Не удалось загрузить информацию об игре.';
+        document.getElementById('game-gameplay').textContent = 'Не удалось загрузить информацию об игре.';
+        document.getElementById('game-critics').textContent = 'Не удалось загрузить информацию об игре.';
+        document.getElementById('game-screenshots').src = 'Ошибка.';
     });
