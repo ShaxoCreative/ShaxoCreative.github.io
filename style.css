@@ -7,7 +7,7 @@ body {
     width: 85%;
     max-width: 1500px;
     background-image: url('background.png');
-    background-color: Window;
+    background-color: WindowFrame;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
