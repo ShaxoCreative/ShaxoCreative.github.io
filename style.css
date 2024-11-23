@@ -7,7 +7,6 @@ body {
     width: 85%;
     max-width: 1500px;
     background-image: url('background.png');
-    background-color: WindowFrame;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -551,7 +550,11 @@ nav ul li a:hover {
 
 @media (max-width: 450px) {
     body {
-        background-attachment: fixed;
+        width: 100%;
+    }
+
+    main {
+        background-color: rgba(31, 0, 2, 1);
     }
 
     #topics {
