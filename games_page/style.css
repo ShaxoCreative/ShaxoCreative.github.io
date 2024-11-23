@@ -202,16 +202,26 @@ nav ul {
 }
 
 .game img {
-    width: 100%;
-    max-width: 300px;
+    width: 45%;
     height: auto;
-    max-height: 450px;
     margin-bottom: 10px;
+}
+
+.game img:hover {
+    cursor: pointer;
 }
 
 .game .title {
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.game .title:hover {
+    cursor: pointer;
+    transition: 0.55s;
+    transform: scale(1.1);
+    overflow: hidden;
+    color: red;
 }
 
 .game .date,

@@ -534,8 +534,9 @@ nav ul li a:hover {
         font-size: 1.5em;
     }
 
-    .card-content {
-        opacity: 1;
+    .card-content p {
+        visibility: hidden;
+        font-size: 1px;
     }
 
     .social-card-container {
