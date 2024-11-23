@@ -1,0 +1,14 @@
+﻿{
+  "game1": {
+    "title": "Игра 1",
+    "image": "placeholder1.jpg",
+    "description": "Это описание для Игры 1.",
+    "background": "background1.png"
+  },
+  "game2": {
+    "title": "Игра 2",
+    "image": "placeholder2.jpg",
+    "description": "Это описание для Игры 2.",
+    "background": "background2.png"
+  }
+}
