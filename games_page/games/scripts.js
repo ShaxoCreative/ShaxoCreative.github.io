@@ -28,7 +28,7 @@ fetch('games.json')
             document.getElementById('game-screenshot1').src = game.screenshots2;
             document.getElementById('game-screenshot1').src = game.screenshots3;
 
-            document.body.style.backgroundImage = `url(${game.background})`;
+            document.querySelector('.fixed-background') = `url(${game.background})`;
 
             document.title += game.title;
         } else {
