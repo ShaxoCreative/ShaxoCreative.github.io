@@ -16,7 +16,7 @@ fetch('games.json')
         if (data[key]) {
             const game = data[key];
 
-            document.getElementById('game-title').appendChild(game.title);
+            document.getElementById('game-title') += game.title;
             document.getElementById('game-image').src = game.image;
             document.getElementById('game-data').textContent = game.data;
             document.getElementById('game-platforms').textContent = game.platforms;
