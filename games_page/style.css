@@ -6,14 +6,25 @@ body {
     padding: 0;
     width: 85%;
     max-width: 1500px;
-    background-image: url('background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     color: white;
     text-align: justify;
     line-height: 1.6;
+}
+
+.fixed-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('background.png') no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.scrollable-content {
+    position: relative;
+    z-index: 1;
 }
 
 header {
@@ -178,13 +189,13 @@ nav ul {
 .table {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 3px solid white;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     padding: 10px 0;
 }
 

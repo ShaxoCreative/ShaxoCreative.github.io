@@ -16,7 +16,7 @@ fetch('games.json')
         if (data[key]) {
             const game = data[key];
 
-            document.getElementById('game-title').textContent = game.title;
+            document.getElementById('game-title').textContent += game.title;
             document.getElementById('game-image').src = game.image;
             document.getElementById('game-data').textContent = game.data;
             document.getElementById('game-platforms').textContent = game.platforms;
@@ -30,7 +30,7 @@ fetch('games.json')
 
             document.body.style.backgroundImage = `url(${game.background})`;
 
-            document.title = game.title;
+            document.title += game.title;
         } else {
             throw new Error('Игра с таким ключом не найдена');
         }

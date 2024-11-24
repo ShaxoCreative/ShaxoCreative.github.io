@@ -1,20 +1,20 @@
 ﻿{
   "game1": {
-    "title": "Resident Evil",
+    "title": "",
     "image": "game1.png",
     "data": "Дата выпуска: 22.03.1996",
     "platforms": "Платформы: PlayStation, Windows, Sega Saturn (1997), Mobile Phone (2004), Nintendo DS (2006)",
-    "description": "Это описание для Игры 1.",
-    "story": "1984",
-    "gameplay": "1984",
-    "critics": "1984",
+    "description": "&nbsp&nbsp&nbsp&nbspResident Evil (1996) — первая игра в культовой серии survival horror от Capcom, положившая начало жанру. Действие разворачивается в мрачном особняке, полном зомби, мутантов и загадок. Игроку предстоит выжить, решать головоломки и сражаться с монстрами, исследуя историю корпорации Umbrella. Игра славится своей напряжённой атмосферой, инновационной камерой с фиксированными ракурсами и ограниченными ресурсами. Resident Evil стала одной из первых игр, успешно соединивших ужасы с глубоким повествованием.",
+    "story": "В 1998 году в окрестностях Раккун-Сити начинают пропадать люди, находят растерзанные тела. Для расследования отправляется команда S.T.A.R.S., но их вертолёт терпит крушение, и оставшиеся в живых укрываются в особняке. Игрок выбирает за кого играть: Криса Редфилда или Джилл Валентайн. Исследуя особняк, герои находят дневники и лаборатории, раскрывающие деятельность корпорации Umbrella, которая разрабатывала биологическое оружие — T-вирус. Вирус вырвался на свободу, превратив людей и животных в монстров. На пути к выживанию герои сталкиваются с мутировавшими существами, решают загадки и борются с предателем Альбертом Вескером. В финале они уничтожают Тирана — результат экспериментов, и покидают особняк перед его взрывом.",
+    "gameplay": "Resident Evil ввела элементы survival horror: фиксированные ракурсы камеры, ограниченные патроны и здоровье, напряжённое исследование окружения. Игрок решает головоломки и управляет инвентарём с ограниченным пространством. Главной особенностью стала атмосфера страха и неожиданных атак. Это первая игра серии, поэтому сравнивать её можно только с более поздними частями, которые унаследовали механики и доработали элементы.",
+    "critics": "Игра была воспринята с восторгом, став революционной для своего времени. Журналисты хвалили напряжённую атмосферу, сюжет и необычную механику фиксированной камеры. Графика и звуковой дизайн вызвали признание за реалистичность и создание ужаса. Однако критике подверглись угловатое управление и громоздкие диалоги. Несмотря на это, Resident Evil стала коммерческим хитом и вдохновила множество последователей, став классикой жанра.",
     "screenshot1": "1984",
     "screenshot2": "1984",
     "screenshot3": "1984",
     "background": "background1.png"
   },
   "game2": {
-    "title": "Resident Evil 2",
+    "title": " 2",
     "image": "game2.png",
     "data": "Дата выпуска: 21.01.1998",
     "platforms": "Платформы: PlayStation, Windows (1999), Nintendo 64 (1999), Sega Dreamcast (1999), Nintendo GameCube (2003), PlaySation Portable (2007)",
@@ -28,7 +28,7 @@
     "background": "background2.png"
   },
   "game3": {
-    "title": "Resident Evil 3: Nemesis",
+    "title": " 3: Nemesis",
     "image": "game3.png",
     "data": "Дата выпуска: 22.09.1999",
     "platforms": "Платформы: PlayStation, Windows (2000), Dreamcast (2000), Nintendo GameCube (2003)",
@@ -42,7 +42,7 @@
     "background": "background3.png"
   },
   "game4": {
-    "title": "Resident Evil CODE: Veronica",
+    "title": " CODE: Veronica",
     "image": "game4.png",
     "data": "Дата выпуска: 03.02.2000",
     "platforms": "Платформы: Dreamcast, PlayStation 2 (2001), Nintendo GameCube (2003), PlayStation 3 (2011), Xbox 360 (2011)",
@@ -56,7 +56,7 @@
     "background": "background4.png"
   },
   "game5": {
-    "title": "Resident Evil Remake",
+    "title": " Remake",
     "image": "game5.png",
     "data": "Дата выпуска: 22.03.2002 | HD Remaster: 27.11.2014",
     "platforms": "Платформы: Nintendo GameCube, Nintendo Wii (2008) | HD Remaster: Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch (2019)",
@@ -70,7 +70,7 @@
     "background": "background5.png"
   },
   "game6": {
-    "title": "Resident Evil Zero",
+    "title": " Zero",
     "image": "game6.png",
     "data": "Дата выпуска: 12.11.2002",
     "platforms": "Платформы: Nintendo GameCube, Nintendo Wii (2008), Windows (2016), PlayStation 3 (2016), PlayStation 4 (2016), Xbox 360 (2016), Xbox One (2016), Nintendo Switch (2019)",
@@ -84,7 +84,7 @@
     "background": "background6.png"
   },
   "game7": {
-    "title": "Resident Evil 4",
+    "title": " 4",
     "image": "game7.png",
     "data": "Дата выпуска: 11.01.2005",
     "platforms": ">Платформы: Nintendo GameCube, PlayStation, Windows (2007), Wii (2007), IOS (2009), Zeebo (2009), PlayStation 3 (2011), Xbox 360 (2011), Android (2013), PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)",
@@ -98,7 +98,7 @@
     "background": "background7.png"
   },
   "game8": {
-    "title": "Resident Evil 5",
+    "title": " 5",
     "image": "game8.png",
     "data": "Дата выпуска: 05.03.2009",
     "platforms": "Платформы: PlayStation 3, Xbox 360, Windows, PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)",
@@ -112,7 +112,7 @@
     "background": "background8.png"
   },
   "game9": {
-    "title": "Resident Evil 6",
+    "title": " 6",
     "image": "game9.png",
     "data": "Дата выпуска: 04.10.2012",
     "platforms": "Платформы: PlayStation 3, Xbox 360, Windows (2013), PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)",
@@ -126,7 +126,7 @@
     "background": "background9.png"
   },
   "game10": {
-    "title": "Resident Evil Biohazard",
+    "title": " Biohazard",
     "image": "game10.png",
     "data": "Дата выпуска: 24.01.2017",
     "platforms": "Платформы: PlayStation 4, Xbox One, Windows, Nintendo Switch (2018), PlayStation 5 (2022), Xbox Series X|S (2022), IOS (2024), iPadOS (2024), macOS (2024)",
@@ -140,7 +140,7 @@
     "background": "background10.png"
   },
   "game11": {
-    "title": "Resident Evil 2 Remake",
+    "title": " 2 Remake",
     "image": "game11.png",
     "data": "Дата выпуска: 25.01.2019",
     "platforms": "Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5 (2022), Xbox Series X|S (2022), Nintendo Switch (2022), IOS (2024), iPadOS (2024), macOS (2024)",
@@ -154,7 +154,7 @@
     "background": "background11.png"
   },
   "game12": {
-    "title": "Resident Evil 3 Remake",
+    "title": " 3 Remake",
     "image": "game12.png",
     "data": "Дата выпуска: 03.04.2020",
     "platforms": "Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5 (2022), Xbox Series X|S (2022), Nintendo Switch (2022)",
@@ -168,7 +168,7 @@
     "background": "background12.png"
   },
   "game13": {
-    "title": "Resident Evil Village",
+    "title": " Village",
     "image": "game13.png",
     "data": "Дата выпуска: 07.05.2021",
     "platforms": "Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5, Xbox Series X|S, macOS (2022), Nintendo Switch (2022), IOS (2023)",
@@ -182,7 +182,7 @@
     "background": "background13.png"
   },
   "game14": {
-    "title": "Resident Evil 4 Remake",
+    "title": " 4 Remake",
     "image": "game14.png",
     "data": "Дата выпуска: 02.10.2022",
     "platforms": "PlayStation 4, Windows, PlayStation 5, Xbox Series X|S, macOS (2023), IOS (2023)",
