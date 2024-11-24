@@ -24,9 +24,9 @@ fetch('games.json')
             document.getElementById('game-story').textContent = game.story;
             document.getElementById('game-gameplay').textContent = game.gameplay;
             document.getElementById('game-critics').textContent = game.critics;
-            document.getElementById('game-screenshot1').src = game.screenshots1;
-            document.getElementById('game-screenshot1').src = game.screenshots2;
-            document.getElementById('game-screenshot1').src = game.screenshots3;
+            document.getElementById('game-screenshot1').src = game.screenshot1;
+            document.getElementById('game-screenshot1').src = game.screenshot2;
+            document.getElementById('game-screenshot1').src = game.screenshot3;
 
             const backgroundElement = document.querySelector('.fixed-background');
 
