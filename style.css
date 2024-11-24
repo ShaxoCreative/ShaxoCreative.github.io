@@ -6,14 +6,25 @@ body {
     padding: 0;
     width: 85%;
     max-width: 1500px;
-    background-image: url('background.png');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-color: black;
     color: white;
     text-align: justify;
     line-height: 1.6;
+}
+
+.fixed-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('background.png') no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.scrollable-content {
+    position: relative;
+    z-index: 1;
 }
 
 header {
@@ -497,18 +508,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 800px) {
-    body {
-        width: 100%;
-        background-image: url('background-mini.png');
-        background-attachment: unset;
-        background-size: contain;
-        background-position: top;
-    }
-
-    main {
-        background-color: rgba(31, 0, 2, 1);
-    }
-
     #MainMenu {
         font-size: 3em;
     }
@@ -557,18 +556,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 450px) {
-    body {
-        width: 100%;
-        background-image: url('background-ios.png');
-        background-attachment: unset;
-        background-size: contain;
-        background-position: top;
-    }
-
-    main {
-        background-color: rgba(31, 0, 2, 1);
-    }
-
     #topics {
         flex: 0 0 100%;
         padding: 4px;
