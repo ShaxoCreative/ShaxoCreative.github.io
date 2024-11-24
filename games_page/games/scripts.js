@@ -33,7 +33,7 @@ fetch('games.json')
             if (game.background) {
                 backgroundElement.style.background = `url('${game.background}') no-repeat center`;
                 backgroundElement.style.backgroundSize = 'cover';
-
+            }
             document.title += game.title;
         } else {
             throw new Error('Игра с таким ключом не найдена');
