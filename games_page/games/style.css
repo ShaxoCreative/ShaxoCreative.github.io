@@ -49,6 +49,10 @@ arcticle {
     font-size: 1em;
 }
 
+h1 {
+    color: #f30d0c;
+}
+
 h2 {
     text-align: left;
     border-bottom: outset white;
