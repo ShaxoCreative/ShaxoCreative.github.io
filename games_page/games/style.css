@@ -272,12 +272,19 @@ nav ul {
     text-indent: unset;
 }
 
-#game-image, #game-screenshot1, #game-screenshot2, #game-screenshot3 {
+#game-image {
     text-align: center;
     width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 450px;
     margin: 16px;
     display: block;
     margin: 0 auto;
+}
+
+#game-screenshot1, #game-screenshot2, #game-screenshot3 {
+
 }
 
 @media (max-width: 1200px) {

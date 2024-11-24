@@ -28,7 +28,11 @@ fetch('games.json')
             document.getElementById('game-screenshot1').src = game.screenshots2;
             document.getElementById('game-screenshot1').src = game.screenshots3;
 
-            document.querySelector('.fixed-background') = `url(${game.background})`;
+            const backgroundElement = document.querySelector('.fixed-background');
+
+            if (game.background) {
+                backgroundElement.style.background = `url('${game.background}') no-repeat center`;
+                backgroundElement.style.backgroundSize = 'cover';
 
             document.title += game.title;
         } else {
