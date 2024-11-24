@@ -64,8 +64,11 @@ h2 {
     font-size: 4em;
 }
 
+.hoverpic {
+    transition: transform 0.55s;
+}
+
 .hoverpic:hover {
-    transition: 0.55s;
     transform: scale(1.1);
     overflow: hidden;
 }
