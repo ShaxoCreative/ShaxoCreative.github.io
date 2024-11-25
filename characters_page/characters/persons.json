@@ -1,0 +1,26 @@
+{
+  "char1": {
+    "name": "Леон Скотт Кеннеди",
+    "image": "char1.png",
+    "first": "Первое появление: Resident Evil 2 (1998)",
+    "last": "Последнее появление: Resident Evil 4 Remake (2023)",
+    "games": "",
+    "biography": "",
+    "screenshot1": "screen1-1.png",
+    "screenshot2": "screen1-2.png",
+    "screenshot3": "screen1-3.png",
+    "background": "background1.jpeg"
+  },
+  "char2": {
+    "name": "Крис Рэдфилд",
+    "image": "char2.png",
+    "first": "Первое появление: Resident Evil (1996)",
+    "last": "Последнее появление: Resident Evil Village (2021)",
+    "games": "",
+    "biography": "",
+    "screenshot1": "screen2-1.png",
+    "screenshot2": "screen2-2.png",
+    "screenshot3": "screen2-3.png",
+    "background": "background1.jpeg"
+  }
+}

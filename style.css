@@ -276,6 +276,7 @@ nav ul li a:hover {
 
 .card:hover {
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .card:hover .card-content {

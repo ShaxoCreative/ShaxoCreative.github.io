@@ -48,5 +48,4 @@ fetch('games.json')
         document.getElementById('game-story').textContent = 'Не удалось загрузить информацию об игре.';
         document.getElementById('game-gameplay').textContent = 'Не удалось загрузить информацию об игре.';
         document.getElementById('game-critics').textContent = 'Не удалось загрузить информацию об игре.';
-        document.getElementById('game-screenshots').src = 'Ошибка.';
     });

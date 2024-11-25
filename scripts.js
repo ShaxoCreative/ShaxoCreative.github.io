@@ -12,3 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("scroll", handleScroll);
 });
+
+function redirectTo(key) {
+    window.location.href = `characters_page/characters/person.html?key=${key}`;
+}
