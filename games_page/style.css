@@ -9,6 +9,7 @@ body {
     color: white;
     text-align: justify;
     line-height: 1.6;
+    background-color: black;
 }
 
 .fixed-background {
@@ -17,7 +18,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url('background.png') no-repeat center;
+    background: url('background.jpeg') no-repeat center;
     background-size: cover;
     z-index: -1;
 }

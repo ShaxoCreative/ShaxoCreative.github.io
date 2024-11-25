@@ -11,7 +11,7 @@
     "screenshot1": "screen1-1.png",
     "screenshot2": "screen1-2.png",
     "screenshot3": "screen1-3.png",
-    "background": "background1.png"
+    "background": "background1.jpeg"
   },
   "game2": {
     "title": " 2",
@@ -25,7 +25,7 @@
     "screenshot1": "screen2-1.png",
     "screenshot2": "screen2-2.png",
     "screenshot3": "screen2-3.png",
-    "background": "background2.png"
+    "background": "background2.jpeg"
   },
   "game3": {
     "title": " 3: Nemesis",
@@ -39,7 +39,7 @@
     "screenshot1": "screen3-1.png",
     "screenshot2": "screen3-2.png",
     "screenshot3": "screen3-3.png",
-    "background": "background3.png"
+    "background": "background3.jpeg"
   },
   "game4": {
     "title": " CODE: Veronica",
@@ -53,7 +53,7 @@
     "screenshot1": "screen4-1.png",
     "screenshot2": "screen4-2.png",
     "screenshot3": "screen4-3.png",
-    "background": "background4.png"
+    "background": "background4.jpeg"
   },
   "game5": {
     "title": " Remake",
@@ -67,7 +67,7 @@
     "screenshot1": "screen5-1.png",
     "screenshot2": "screen5-2.png",
     "screenshot3": "screen5-3.png",
-    "background": "background5.png"
+    "background": "background5.jpeg"
   },
   "game6": {
     "title": " Zero",
@@ -81,7 +81,7 @@
     "screenshot1": "screen6-1.png",
     "screenshot2": "screen6-2.png",
     "screenshot3": "screen6-3.png",
-    "background": "background6.png"
+    "background": "background6.jpeg"
   },
   "game7": {
     "title": " 4",
@@ -95,7 +95,7 @@
     "screenshot1": "screen7-1.png",
     "screenshot2": "screen7-2.png",
     "screenshot3": "screen7-3.png",
-    "background": "background7.png"
+    "background": "background7.jpeg"
   },
   "game8": {
     "title": " 5",
@@ -109,7 +109,7 @@
     "screenshot1": "screen8-1.png",
     "screenshot2": "screen8-2.png",
     "screenshot3": "screen8-3.png",
-    "background": "background8.png"
+    "background": "background8.jpeg"
   },
   "game9": {
     "title": " 6",
@@ -123,7 +123,7 @@
     "screenshot1": "screen9-1.png",
     "screenshot2": "screen9-2.png",
     "screenshot3": "screen9-3.png",
-    "background": "background9.png"
+    "background": "background9.jpeg"
   },
   "game10": {
     "title": " Biohazard",
@@ -137,7 +137,7 @@
     "screenshot1": "screen10-1.png",
     "screenshot2": "screen10-2.png",
     "screenshot3": "screen10-3.png",
-    "background": "background10.png"
+    "background": "background10.jpeg"
   },
   "game11": {
     "title": " 2 Remake",
@@ -151,7 +151,7 @@
     "screenshot1": "screen11-1.png",
     "screenshot2": "screen11-2.png",
     "screenshot3": "screen11-3.png",
-    "background": "background11.png"
+    "background": "background11.jpeg"
   },
   "game12": {
     "title": " 3 Remake",
@@ -165,7 +165,7 @@
     "screenshot1": "screen12-1.png",
     "screenshot2": "screen12-2.png",
     "screenshot3": "screen12-3.png",
-    "background": "background12.png"
+    "background": "background12.jpeg"
   },
   "game13": {
     "title": " Village",
@@ -179,7 +179,7 @@
     "screenshot1": "screen13-1.png",
     "screenshot2": "screen13-2.png",
     "screenshot3": "screen13-3.png",
-    "background": "background13.png"
+    "background": "background13.jpeg"
   },
   "game14": {
     "title": " 4 Remake",
@@ -193,6 +193,6 @@
     "screenshot1": "screen14-1.png",
     "screenshot2": "screen14-2.png",
     "screenshot3": "screen14-3.png",
-    "background": "background14.png"
+    "background": "background14.jpeg"
   }
 }
