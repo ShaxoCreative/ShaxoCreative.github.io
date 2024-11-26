@@ -17,6 +17,7 @@ fetch('persons.json')
             const char = data[key];
 
             document.getElementById('char-name').textContent = char.name;
+            document.getElementById('char-nameinf').textContent = char.name;
             document.getElementById('char-image').src = char.image;
             document.getElementById('char-first').textContent = char.first;
             document.getElementById('char-last').textContent = char.last;
@@ -28,11 +29,11 @@ fetch('persons.json')
 
             const backgroundElement = document.querySelector('.fixed-background');
 
-            if (game.background) {
-                backgroundElement.style.background = `url('${game.background}') no-repeat center`;
+            if (char.background) {
+                backgroundElement.style.background = `url('${char.background}') no-repeat center`;
                 backgroundElement.style.backgroundSize = 'cover';
             }
-            document.title += game.title;
+            document.title += char.title;
         } else {
             throw new Error('Персонаж с таким ключом не найден');
         }
