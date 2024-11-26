@@ -22,7 +22,9 @@ fetch('persons.json')
             document.getElementById('char-first').textContent = char.first;
             document.getElementById('char-last').textContent = char.last;
             document.getElementById('char-games').textContent = char.games;
-            document.getElementById('char-biography').textContent = char.biography;
+            document.getElementById('char-biography1').textContent = char.biography1;
+            document.getElementById('char-biography2').textContent = char.biography2;
+            document.getElementById('char-biography3').textContent = char.biography3;
             document.getElementById('char-screenshot1').src = char.screenshot1;
             document.getElementById('char-screenshot2').src = char.screenshot2;
             document.getElementById('char-screenshot3').src = char.screenshot3;
@@ -44,5 +46,7 @@ fetch('persons.json')
         document.getElementById('char-first').textContent = 'Не удалось загрузить информацию о персонаже.';
         document.getElementById('char-last').textContent = 'Не удалось загрузить информацию о персонаже.';
         document.getElementById('char-games').textContent = 'Не удалось загрузить информацию о персонаже.';
-        document.getElementById('char-biography').textContent = 'Не удалось загрузить информацию о персонаже.';
+        document.getElementById('char-biography1').textContent = 'Не удалось загрузить информацию о персонаже.';
+        document.getElementById('char-biography2').textContent = 'Не удалось загрузить информацию о персонаже.';
+        document.getElementById('char-biography3').textContent = 'Не удалось загрузить информацию о персонаже.';
     });
