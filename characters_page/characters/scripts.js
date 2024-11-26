@@ -35,7 +35,7 @@ fetch('persons.json')
                 backgroundElement.style.background = `url('${char.background}') no-repeat center`;
                 backgroundElement.style.backgroundSize = 'cover';
             }
-            document.title += char.title;
+            document.title += char.name;
         } else {
             throw new Error('Персонаж с таким ключом не найден');
         }
