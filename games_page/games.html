@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <title>Игры серии Resident Evil</title>
+    <link rel="icon" type="image/png" href="..\favicon.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fixed-background"></div>
+    <div class="scrollable-content">
+        <header>
+            <h1 id="MainMenu">Игры серии <font color="#f30d0c">RESIDENT </font><font color="#efefee">EVIL</font></h1>
+            <nav>
+                <ul id="navmenu">
+                    <li><a href="..\index.html">На главную</a>
+                    <li><a href="..\characters_page\characters.html">Персонажи</a>
+                    <li><a href="..\enemies_page\enemies.html">Противники</a>
+                    <li><a href="..\trailers_page\trailers.html">Трейлеры</a>
+                    <li><a href="..\gallery_page\gallery.html">Галерея</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <p>
+                    &nbsp&nbsp&nbsp&nbspНа черном фоне эффектно выделяется открывающаяся
+                    дверь. Вы когда- нибудь задумывались о том, сколько
+                    раз вам встречалась таинственная дверь, окутанная тенями? Дверь, за которой скрывается неуверенность, неизвестность и зачастую ужас. Сможете ли вы выжить?
+                </p>
+            </section>
+            <arcticle>
+                <p>
+                    <div class="table">
+                        <div class="row">
+                            <div class="game">
+                                <img src="game1.png" alt="Обложка игры" onclick="redirectTo('game1')">
+                                <div class="title" onclick="redirectTo('game1')">Resident Evil</div>
+                                <div class="date">Дата выпуска: 22.03.1996</div>
+                                <div class="platforms">Платформы: PlayStation, Windows, Sega Saturn (1997), Mobile Phone (2004), Nintendo DS (2006)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil (1996) — первая игра в культовой серии survival horror от Capcom, положившая начало жанру. 
+                                Действие разворачивается в мрачном особняке, полном зомби, мутантов и загадок. Игроку предстоит выжить, решать головоломки и сражаться с монстрами, 
+                                исследуя историю корпорации Umbrella. Игра славится своей напряжённой атмосферой, инновационной камерой с фиксированными ракурсами и ограниченными ресурсами. 
+                                Resident Evil стала одной из первых игр, успешно соединивших ужасы с глубоким повествованием.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game2.png" alt="Обложка игры" onclick="redirectTo('game2')">
+                                <div class="title" onclick="redirectTo('game2')">Resident Evil 2</div>
+                                <div class="date">Дата выпуска: 21.01.1998</div>
+                                <div class="platforms">Платформы: PlayStation, Windows (1999), Nintendo 64 (1999), Sega Dreamcast (1999), Nintendo GameCube (2003), PlaySation Portable (2007)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 2 — продолжение культовой серии survival horror от Capcom, развивающее события первой игры. 
+                                Действие происходит в заражённом Раккун-Сити, где два героя, Леон Кеннеди и Клэр Редфилд, пытаются выжить, сталкиваясь с ордами зомби 
+                                и биологическими экспериментами корпорации Umbrella. Игра углубляет сюжет, представляя систему двух сценариев для каждого героя, 
+                                что добавляет реиграбельности. Атмосфера, напряжение и кинематографичный подход сделали игру шедевром жанра.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game3.png" alt="Обложка игры" onclick="redirectTo('game3')">
+                                <div class="title" onclick="redirectTo('game3')">Resident Evil 3: Nemesis</div>
+                                <div class="date">Дата выпуска: 22.09.1999</div>
+                                <div class="platforms">Платформы: PlayStation, Windows (2000), Dreamcast (2000), Nintendo GameCube (2003)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 3: Nemesis продолжает историю Раккун-Сити, показывая финальные дни эпидемии T-вируса. 
+                                Джилл Валентайн пытается выжить в городе, преследуемая неуязвимым монстром Немезисом. Игра делает акцент на экшене и 
+                                динамике, вводя элементы выбора и возможность уворачиваться от атак. Атмосфера паники и угрозы от преследующего врага сделали её уникальной среди игр серии.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game4.png" alt="Обложка игры" onclick="redirectTo('game4')">
+                                <div class="title" onclick="redirectTo('game4')">Resident Evil CODE: Veronica</div>
+                                <div class="date">Дата выпуска: 03.02.2000</div>
+                                <div class="platforms">Платформы: Dreamcast, PlayStation 2 (2001), Nintendo GameCube (2003), PlayStation 3 (2011), Xbox 360 (2011)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil CODE: Veronica — первая игра серии с полноценной 3D-графикой, 
+                                продолжившая сюжет о борьбе с корпорацией Umbrella. Клэр и Крис Редфилд оказываются на острове Рокфорд и в Антарктике, 
+                                сражаясь с новыми мутантами и раскрывая тайны семьи Ашфорд. Игра акцентирует внимание на повествовании и драматичных сюжетных поворотах.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game5.png" alt="Обложка игры" onclick="redirectTo('game5')">
+                                <div class="title" onclick="redirectTo('game5')">Resident Evil Remake</div>
+                                <div class="date">Дата выпуска: 22.03.2002 | HD Remaster: 27.11.2014</div>
+                                <div class="platforms">Платформы: Nintendo GameCube, Nintendo Wii (2008) | HD Remaster: Windows, PlayStation 3, PlayStation 4, Xbox 360, Xbox One, Nintendo Switch (2019)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil Remake — полноценное переосмысление оригинальной игры 1996 года, с новой графикой, 
+                                улучшенным геймплеем и расширенным сюжетом. Игра сохраняет дух оригинала, добавляя новые локации, загадки и врагов. 
+                                Это не просто ремастер, а образец качественного ремейка, задавший новый стандарт в индустрии.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game6.png" alt="Обложка игры" onclick="redirectTo('game6')">
+                                <div class="title" onclick="redirectTo('game6')">Resident Evil Zero</div>
+                                <div class="date">Дата выпуска: 12.11.2002</div>
+                                <div class="platforms">Платформы: Nintendo GameCube, Nintendo Wii (2008), Windows (2016), PlayStation 3 (2016), PlayStation 4 (2016), Xbox 360 (2016), Xbox One (2016), Nintendo Switch (2019)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil Zero рассказывает предысторию первой части, показывая события, которые привели к катастрофе в особняке Спенсера. 
+                                Игра вводит систему двух персонажей, Ребекки Чемберс и Билли Коэна, которые работают в команде, чтобы выжить. 
+                                Локации варьируются от поезда до лабораторий, сохраняя атмосферу ужаса.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game7.png" alt="Обложка игры" onclick="redirectTo('game7')">
+                                <div class="title" onclick="redirectTo('game7')">Resident Evil 4</div>
+                                <div class="date">Дата выпуска: 11.01.2005</div>
+                                <div class="platforms">Платформы: Nintendo GameCube, PlayStation, Windows (2007), Wii (2007), IOS (2009), Zeebo (2009), PlayStation 3 (2011), Xbox 360 (2011), Android (2013), PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 4 представляет собой революционный экшен-хоррор, который изменил направление серии. 
+                                Игра переносит игрока в европейскую деревню, где Леон Кеннеди спасает дочь президента США. 
+                                Обновлённая камера за плечом, захватывающий экшен и множество новых механик сделали её классикой.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game8.png" alt="Обложка игры" onclick="redirectTo('game8')">
+                                <div class="title" onclick="redirectTo('game8')">Resident Evil 5</div>
+                                <div class="date">Дата выпуска: 05.03.2009</div>
+                                <div class="platforms">Платформы: PlayStation 3, Xbox 360, Windows, PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 5 — динамичный экшен в духе survival horror, развивающийся в Африке, где Крис Редфилд и Шева Аломар 
+                                противостоят биотеррористической угрозе. Игра делает акцент на кооперативном геймплее и насыщенных сражениях, предлагая новые виды врагов и 
+                                масштабные локации. События раскрывают планы Альберта Вескера и последствия деятельности корпорации Umbrella, став важным этапом в сюжете серии.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game9.png" alt="Обложка игры" onclick="redirectTo('game9')">
+                                <div class="title" onclick="redirectTo('game9')">Resident Evil 6</div>
+                                <div class="date">Дата выпуска: 04.10.2012</div>
+                                <div class="platforms">Платформы: PlayStation 3, Xbox 360, Windows (2013), PlayStation 4 (2016), Xbox One (2016), Nintendo Switch (2019)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 6 сочетает экшен и survival horror, предлагая четыре сюжетные кампании, каждая со своим стилем геймплея. 
+                                Игроки управляют классическими персонажами (Леон, Крис) и новыми героями, борясь с глобальной биотеррористической угрозой. 
+                                Игра предлагает разнообразие локаций, от зомби-апокалипсиса до боевиков с монстрами.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game10.png" alt="Обложка игры" onclick="redirectTo('game10')">
+                                <div class="title" onclick="redirectTo('game10')">Resident Evil Biohazard</div>
+                                <div class="date">Дата выпуска: 24.01.2017</div>
+                                <div class="platforms">Платформы: PlayStation 4, Xbox One, Windows, Nintendo Switch (2018), PlayStation 5 (2022), Xbox Series X|S (2022), IOS (2024), iPadOS (2024), macOS (2024)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil 7 вернулась к корням survival horror, предлагая вид от первого лица и мрачную атмосферу. 
+                                Игрок управляет Итаном Уинтерсом, который пытается найти пропавшую жену, попадая в ловушку каннибальской семьи Бейкеров. 
+                                Узкий фокус на ужасы и изоляцию стал новым началом для серии.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game11.png" alt="Обложка игры" onclick="redirectTo('game11')">
+                                <div class="title" onclick="redirectTo('game11')">Resident Evil 2 Remake</div>
+                                <div class="date">Дата выпуска: 25.01.2019</div>
+                                <div class="platforms">Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5 (2022), Xbox Series X|S (2022), Nintendo Switch (2022), IOS (2024), iPadOS (2024), macOS (2024)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspПолноценный ремейк Resident Evil 2 с современной графикой, изменённым геймплеем и переработанным сюжетом. 
+                                Игра сохраняет дух оригинала, добавляя глубины и деталей, делая события более мрачными и кинематографичными.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game12.png" alt="Обложка игры" onclick="redirectTo('game12')">
+                                <div class="title" onclick="redirectTo('game12')">Resident Evil 3 Remake</div>
+                                <div class="date">Дата выпуска: 03.04.2020</div>
+                                <div class="platforms">Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5 (2022), Xbox Series X|S (2022), Nintendo Switch (2022)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspРемейк Resident Evil 3 обновил графику, механику и добавил динамики. Джилл Валентайн противостоит Немезису в хаосе Раккун-Сити, 
+                                предлагая интенсивный, но сокращённый опыт.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game13.png" alt="Обложка игры" onclick="redirectTo('game13')">
+                                <div class="title" onclick="redirectTo('game13')">Resident Evil Village</div>
+                                <div class="date">Дата выпуска: 07.05.2021</div>
+                                <div class="platforms">Платформы: PlayStation 4, Xbox One, Windows, PlayStation 5, Xbox Series X|S, macOS (2022), Nintendo Switch (2022), IOS (2023)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspResident Evil Village продолжает историю Итана Уинтерса, соединяя survival horror с экшеном. Итан ищет похищенную дочь в загадочной деревне, сталкиваясь 
+                                с Леди Димитреску и другими жуткими антагонистами.
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="game">
+                                <img src="game14.png" alt="Обложка игры" onclick="redirectTo('game14')">
+                                <div class="title" onclick="redirectTo('game14')">Resident Evil 4 Remake</div>
+                                <div class="date">Дата выпуска: 24.03.2023</div>
+                                <div class="platforms">PlayStation 4, Windows, PlayStation 5, Xbox Series X|S, macOS (2023), IOS (2023)</div>
+                            </div>
+                            <div class="description">
+                                &nbsp&nbsp&nbsp&nbspРемейк Resident Evil 4 модернизирует культовый оригинал с улучшенной графикой, обновлённым геймплеем и переработанным сюжетом. 
+                                Игра сохранила культовые элементы, добавив современности и глубины.
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </arcticle>
+            <h2>Наши социальные сети</h2>
+            <footer>
+                <p>
+                    <div class="social-card-container">
+                        <a href="https://vk.com/gstyablin" target="_blank">
+                            <div class="social-card vk" id="vk">
+                                <img src="..\social\vk.png" alt="vk">
+                                <p>VK</p>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/@ShaxoCreative" target="_blank">
+                            <div class="social-card yt">
+                                <img src="..\social\youtube.png" alt="youtube">
+                                <p>YouTube</p>
+                            </div>
+                        </a>
+                        <a href="https://t.me/gstyablin" target="_blank">
+                            <div class="social-card tg">
+                                <img src="..\social\tg.png" alt="tg">
+                                <p>Telegram</p>
+                            </div>
+                        </a>
+                    </div>
+                </p>
+            </footer>
+        </main>
+    </div>
+        <script src="scripts.js"></script>
+</body>
+</html>
